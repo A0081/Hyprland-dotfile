@@ -1,0 +1,85 @@
+/* ----------- 💫 https://github.com/JaKooLit 💫 -------- */
+/* wallust-wlogout */
+
+/* Importing pywal colors */
+
+/*@import '../../.config/waybar/wallust/colors-waybar.css';*/
+
+* {
+    font-family: "Fira Sans Semibold", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    background-image: none;
+    transition: 20ms;
+    box-shadow: none;
+}
+
+window {
+    background: url("/home/_0081/.config/background/arch-black-4k.png");
+    background-size: cover;
+}
+
+button {
+    color: #FFFFFF;
+    font-size:20px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+
+    border-style: solid;
+    background-color: rgba(12, 12, 12, 0.3);
+    border: 3px solid #FFFFFF;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:focus,
+button:active,
+button:hover {
+    color: rgba(205,214,244,1.000);
+    background-color: rgba(108,112,134,1.000);
+    border: 3px solid rgba(205,214,244,1.000);
+}
+
+
+
+#lock {
+    background-image: image(url("./icons/lock.png"));
+}
+#lock:hover {
+    background-image: image(url("./icons/lock-hover.png"));
+}
+
+#logout {
+    background-image: image(url("./icons/logout.png"));
+}
+#logout:hover {
+    background-image: image(url("./icons/logout-hover.png"));
+}
+
+#suspend {
+    background-image: image(url("./icons/sleep.png"));
+}
+#suspend:hover {
+    background-image: image(url("./icons/sleep-hover.png"));
+}
+
+#shutdown {
+    background-image: image(url("./icons/power.png"));
+}
+#shutdown:hover {
+    background-image: image(url("./icons/power-hover.png"));
+}
+
+#reboot {
+    background-image: image(url("./icons/restart.png"));
+}
+#reboot:hover {
+    background-image: image(url("./icons/restart-hover.png"));
+}
+
+#hibernate {
+    background-image: image(url("./icons/hibernate.png"));
+}
+#hibernate:hover {
+    background-image: image(url("./icons/hibernate-hover.png"));
+}
