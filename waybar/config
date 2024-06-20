@@ -148,7 +148,7 @@
     ],
         },
     "custom/power": {
-        "format": "󰐥",
+        "format": "󰍳",
         "exec": "echo ; echo 󰟡 power // blur",
         "on-click": "~/.config/hypr/scripts/Wlogout.sh",
         "on-click-right": "~/.config/hypr/scripts/ChangeBlur.sh",
